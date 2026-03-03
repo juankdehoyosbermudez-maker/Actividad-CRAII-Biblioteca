@@ -1,0 +1,159 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+145
+'Sea bienvenido, este es un programa que le proporcionara su edad, los meses aproximados que ha vivido y si usted nacio en un año bisiesto o no.'
+4
+1
+88
+'Señor usuario, por favor digite la fecha actual en el siguiente orden: Día, mes y año.'
+5
+1
+31
+Diaactual, Mesactual, Añoactual
+4
+1
+70
+'Digite su fecha de nacimiento en el siguiente orden: Día, mes y año.'
+5
+1
+43
+Dianacimiento, Mesnacimiento, Añonacimiento
+6
+1
+4
+Años
+23
+Añoactual-Añonacimiento
+7
+0
+1
+23
+Mesnacimiento>Mesactual
+6
+1
+12
+Mesesvividos
+23
+Mesactual-Mesnacimiento
+13
+6
+1
+4
+Años
+6
+Años-1
+6
+1
+12
+Mesesvividos
+28
+12-(Mesnacimiento-Mesactual)
+13
+7
+0
+1
+23
+Dianacimiento>Diaactual
+6
+1
+11
+Diasvividos
+23
+Diaactual-Dianacimiento
+13
+6
+1
+12
+Mesesvividos
+14
+Mesesvividos-1
+6
+1
+11
+Diasvividos
+28
+30-(Dianacimiento-Diaactual)
+13
+4
+1
+79
+'Usted tiene ', Años, ' años, ',Mesesvividos,' meses y ',Diasvividos , ' días.'
+6
+2
+10
+Totalmeses
+30
+(Añoactual-Añonacimiento) * 12
+10
+Totalmeses
+40
+Totalmeses + (Mesactual - Mesnacimiento)
+7
+0
+1
+25
+Diaactual < Dianacimiento
+13
+6
+1
+10
+Totalmeses
+14
+Totalmeses - 1
+13
+4
+1
+57
+'Usted ha vivido un aproximado de ', Totalmeses,' meses.'
+7
+0
+1
+25
+Añonacimiento mod 400 = 0
+7
+0
+1
+53
+Añonacimiento mod 4 = 0 and Mesnacimiento mod 100 !=0
+4
+1
+36
+'Usted no nació en un año bisiesto.'
+13
+7
+0
+1
+18
+Mesnacimiento = 02
+4
+1
+52
+'Usted nació en un año bisiesto pero no en febrero.'
+13
+4
+1
+46
+'Usted nació en un año bisiesto y en febrero.'
+4
+1
+28
+'Usted es un caso especial.'
+13
+13
+13
+4
+1
+52
+'Usted nació en un año bisiesto pero no en febrero.'
+13
+4
+1
+28
+'Fin del programa. Gracias.'
+1
