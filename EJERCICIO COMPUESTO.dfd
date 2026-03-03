@@ -24,7 +24,7 @@ edad >= 18
 4
 1
 46
-'Le faltan', 18 - edad, 'años para participar'
+'Le faltan', 18 - edad, 'aÃ±os para participar'
 13
 4
 1
@@ -47,7 +47,7 @@ peso >= 50
 4
 1
 61
-'Le faltan', 50 - peso, 'kg para el mínimo requerido de peso'
+'Le faltan', 50 - peso, 'kg para el mÃ­nimo requerido de peso'
 13
 4
 1
@@ -70,7 +70,7 @@ estatura >= 1.5
 4
 1
 64
-'Le faltan', 1.5 - estatura, 'metros para el mínimo de estatura'
+'Le faltan', 1.5 - estatura, 'metros para el mÃ­nimo de estatura'
 13
 4
 1
@@ -93,3 +93,4 @@ edad >=18 and peso > 50 and estatura > 1.5
 ' felicidades puedes participar en la competencia'
 13
 1
+
